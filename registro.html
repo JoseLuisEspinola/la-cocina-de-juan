@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/registro.css">
+    <title>La cocina de Juan</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Acerca de</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="registro.html">Registrese</a></li>
+                <li><a href="sucursales.html">Sucursales</a></li>
+                <li><a href="clientes.html">Nuestros Clientes</a></li>
+            </ul>
+        </nav>
+        <h1>La cocina de Juan</h1=>
+    </header>
+    
+    <menu>
+        <h2>Formulario de Registro</h2>
+        <form action="" method="post">
+            <!-- nombre y apellido -->
+            <div class="input-text">
+                <label for="nombre">Nombres:</label>
+                <input id="nombre" type="text" placeholder="Ingrese su nombre">
+
+                <label for="apellido">Apellido:</label>
+                <input id="apellido" type="text" placeholder="Ingrese su apellido">
+            </div>
+
+            <!-- direccion, ciudad y codigo postal -->
+            <div class="input-text">
+                <label for="direccion">Dirección:</label>
+                <input id="direccion" type="text" placeholder="Ingrese su direccion">
+
+                <label for="ciudad">Ciudad:</label>
+                <input id="ciudad" type="text" placeholder="Ej: C.A.B.A.">
+
+                <label for="postal">Cgo.Postal:</label>
+                <input id="postal" type="text" placeholder="Ingrese su direccion">
+            </div>
+
+            <!-- fecha de nacimiento -->
+            <div class="input-text">
+                <label for="phone">Télefono:</label>
+                <input id="phone" type="tel" placeholder="Ingrese su teléfono">
+
+                <label for="nacimiento">Fecha de Nacimiento (DD/MM/AAAA):</label>
+                <input id="nacimiento" type="date" placeholder="formato dd/mm/aaaa">
+
+                <label for="mail">Email:</label>
+                <input id="mail" type="mail" placeholder="ej: joseluis@gmail.com">
+
+                <label for="link">Link del TP 3:</label>
+                <input type="link" type="text" placeholder="Ingrese link">
+            </div>
+
+            <!-- genero -->
+            <div class="radio-genero">
+                <span>Genero:</span>
+                <input id="hombre" type="radio" value="Hombre">
+                <label for="hombre">Hombre</label>
+
+                <input id="mujer" type="radio" value="mujer">
+                <label for="mujer">Mujer</label>
+
+                <input id="otros-gen" type="radio" value="otro-gen">
+                <label for="otros-gen">Otros</label>
+            </div>
+
+            <!-- conocimientos -->
+            <div class="check-conocimientos">
+                <span>Conocimientos:</span>
+                <input id="html" type="checkbox" value="html">
+                <label for="html">HTML</label>
+                
+                <input id="css" type="checkbox" value="css">
+                <label for="css">CSS</label>
+                
+                <input id="bootstrap" type="checkbox" value="bootstrap">
+                <label for="bootstrap">BOOTSTRAP</label>
+                
+                <input id="javascript" type="checkbox" value="javascript">
+                <label for="javascript">JAVASCRIPT</label>
+                
+                <input id="typescript" type="checkbox" value="typescript">
+                <label for="typescript">TYPESCRIPT</label>
+
+                <input id="angular" type="checkbox" value="angular">
+                <label for="angular">ANGULAR</label>
+                
+                <input id="basededatos" type="checkbox" value="basededatos">
+                <label for="basededatos">BASE DE DATOS</label>
+                
+                <input id="python" type="checkbox" value="python">
+                <label for="python">PYTHON</label>
+                
+                <input id="django" type="checkbox" value="django">
+                <label for="django">DJANGO</label>
+            </div> 
+
+            <!-- estudios -->
+            <div class="select-estudios">
+                <label for="estudio">Estudios:</label>
+                    <select id="estudio" name="estudio">
+                        <option value="primario">Primario</option>
+                        <option value="secundario">Secundario</option>
+                        <option value="terciario">Terciario</option>
+                        <option value="universitario">Universitario</option>
+                        <option value="otros">Otros</option>
+                    </select>
+            </div>
+
+            <!-- comentario -->
+            <div class="comentarios">
+                <label for="comentario">Comentarios:</label>
+                <br>
+                <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Ingrese su comementario"></textarea>
+            </div>
+
+            <!-- boton enviar -->
+            <div>
+                <input id="btn-enviar" type="submit" value="Enviar">
+            </div>
+        </form>    <!-- FIN DEL FORMULARIO -->
+    </menu>
+
+    <!-- pie de pagina -->
+    <footer>
+        <div>
+			<a href="https://www.facebook.com/joseluis.espinola1" target="_blank">
+				<img class="facebook" src="./img/Facebook3D.png" alt="Facebook" width="30" height="30">
+			</a>
+			<a href="https://www.instagram.com/jle36/" target="_blank">
+				<img class="instagram" src="./img/Instagram.png" alt="Instagram" width="30" height="30">
+			</a>
+			<a href="" target="_blank" title="Sin Twitter de momento">
+				<img class="twitter" src="./img/twitersocial.png" alt="Twitter" width="30" height="30">
+			</a>
+			<a href=https://www.linkedin.com/in/jose-luis-espinola-a036b7125/" title="LinkedIn" target="_blank">
+				<img class="whatsapp" src="./img/Linkedin3D.png" alt="Whatsapp" width="30" height="30">
+			</a>
+		</div>
+        <br>
+        <p style="text-align: center;">&copy; 2024 La cocina de Juan - Todos los derechos reservados - Espinola Jose Luis</p>
+        <br>
+    </footer>
+</body>
+</html>

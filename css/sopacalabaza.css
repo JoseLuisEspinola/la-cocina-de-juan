@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color:white
+}
+
+nav {
+    display: flex;
+    justify-content: left;
+    text-align: center;
+}
+
+header ul {
+    list-style: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    background-color: dimgray;
+    margin-left: 10px;
+    color: white; 
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* ******* Aqui el <menu> ****** */
+table {
+    width: 30%;
+}
+
+table, th, td {
+  border:1px solid black;
+}
+
+li {
+    padding-bottom: 8px;
+}
+
+ol {
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+/* ****** footer ****** */
+footer div a .facebook, .instagram, .twitter, .linkedin {
+    padding: 2px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}

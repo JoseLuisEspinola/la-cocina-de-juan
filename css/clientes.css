@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    color:white
+}
+
+nav {
+    display: flex;
+    justify-content: left;
+    text-align: center;
+}
+
+header ul {
+    list-style: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    background-color: dimgray;
+    margin-left: 10px;
+    color: white; 
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* ******* Aqui el <menu> ****** */
+menu {
+    margin: 0 8%;
+}
+ /* Flotar cuatro columnas una al lado de la otra */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px 20px 10px;
+}
+  
+  /* Eliminar los márgenes izquierdo y derecho adicionales debido al relleno */
+.row {
+    margin: 0 -5px;
+}
+  
+/* Limpiar flotadores después de las columnas. */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+  
+  /* Columnas responsivas */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}
+  
+  /* Diseñe las cartas de contador */
+.card {
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: rgb(248, 219, 219);
+    border-radius: 4px;
+}
+  
+
+
+
+
+/* ****** footer ****** */
+footer div a .facebook, .instagram, .twitter, .linkedin {
+    padding: 2px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}

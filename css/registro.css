@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color:white
+}
+
+nav {
+    display: flex;
+    justify-content: left;
+    text-align: center;
+}
+
+header ul {
+    list-style: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    background-color: dimgray;
+    margin-left: 10px;
+    color: white; 
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* ******* Aqui el <menu> ****** */
+form {
+    margin: 24px;
+}
+
+label, input {
+    margin-bottom: 12px;
+}
+
+.input-text input {
+    margin-right: 16px;
+}
+
+.input-text input:focus {
+    background-color:rgb(167, 216, 247);
+}
+
+.radio-genero {
+    margin: 20px 0 5px 0;
+}
+
+.select-estudios {
+    margin: 10px 0 10px 0;
+}
+
+#comentario {
+    max-width: 400px;
+    max-height: 100px;
+}
+
+#btn-enviar:hover {
+    background-color:lawngreen;
+    cursor: pointer;
+}
+
+/* ****** footer ****** */
+footer div a .facebook, .instagram, .twitter, .linkedin {
+    padding: 2px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
