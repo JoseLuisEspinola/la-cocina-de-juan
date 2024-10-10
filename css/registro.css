@@ -63,6 +63,7 @@ label, input {
 }
 
 #comentario {
+    field-sizing: content;   /* para que se estire hacia abrajo en textarea */
     max-width: 400px;
     max-height: 100px;
 }

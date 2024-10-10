@@ -51,7 +51,11 @@ menu {
   
   /* Eliminar los márgenes izquierdo y derecho adicionales debido al relleno */
 .row {
-    margin: 0 -5px;
+    /* margin: 0 -5px; */
+    /* lo que sigue lo agregue yo */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
   
 /* Limpiar flotadores después de las columnas. */
@@ -86,9 +90,6 @@ menu {
     border-radius: 4px;
 }
   
-
-
-
 
 /* ****** footer ****** */
 footer div a .facebook, .instagram, .twitter, .linkedin {
