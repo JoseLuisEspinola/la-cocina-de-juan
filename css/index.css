@@ -25,7 +25,7 @@ header ul li {
 }
 
 header ul li a {
-    text-decoration: none;
+    /* text-decoration: none; */
     background-color: dimgray;
     margin-left: 10px;
     color: white; 
@@ -53,6 +53,10 @@ menu .receta {
 /* ****** footer ****** */
 footer div a .facebook, .instagram, .twitter, .linkedin {
     padding: 2px;
+}
+
+footer p {
+    text-align: center;
 }
 
 footer {

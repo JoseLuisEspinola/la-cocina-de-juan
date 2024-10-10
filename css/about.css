@@ -42,6 +42,10 @@ footer div a .facebook, .instagram, .twitter, .linkedin {
     padding: 2px;
 }
 
+footer p {
+    text-align: center;
+}
+
 footer {
     text-align: center;
     background-color: black;
